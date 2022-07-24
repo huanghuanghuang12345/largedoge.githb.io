@@ -1,0 +1,236 @@
+@media only screen and (max-width:1600px) {
+
+
+    
+
+}
+@media only screen and (max-width:1500px) {
+
+    
+
+}
+@media only screen and (max-width:1400px) {
+  
+	.head-w{width: 92%;}
+	.home{width: 92%; left: 4%; margin-left: 0;}
+	.box{width: 92%;}
+	.footer-box{width: 92%;}
+	.links{width: 92%;}
+
+} 
+@media only screen and (max-width:1260px) {
+	
+	
+
+    .logo-box{width: 480px;height: 480px;}
+	.logo-plus{width: 340px; height:340px; margin-left: -170px;}
+	.home-left{width: calc(100% - 500px);}
+	.home-tx1 h1{font-size: 52px;}
+	.home-tx1 h2{font-size: 42px;}
+	.home-tx1 span{font-size: 18px; margin-top: 40px;}
+	
+	.daibi-left{width: calc(50% - 15px);}
+	.daibi-mid{width: calc(50% - 15px);}
+	.daibi-rt{width: 100%; margin-top: 30px;}
+	
+
+
+}
+@media only screen and (max-width:1200px) {
+	.head{ position: fixed;  top: 0px;  }
+	.head-bg{ opacity: 1; }
+	
+	
+	.mobile{ display: block;width: 28px;  overflow: hidden; cursor: pointer; margin-left: 20px;   }
+	.mobile span{ display: block; width: 100%; height:21px;  overflow: hidden;  }
+	.mobile i{  display: block; width: 100%; height: 2px; background: #fff; margin-top: 6px; }
+	.mobile i:nth-child(1){margin-top: 0px;}
+	.mobile i:nth-child(2){}
+	.mobile i:nth-child(3){}
+	.mobile.active i:nth-child(1){transform: rotate(45deg) translateY(5px) translateX(6px);}
+	.mobile.active i:nth-child(2){transform: translateX(40px);opacity: 0;}
+	.mobile.active i:nth-child(3){transform: rotate(-45deg) translateY(-5px) translateX(6px);}
+	.mobile p{ width: 100%; overflow: hidden; margin-top: 4px; }
+	.mobile p img{display: block; width: 100%;}
+	
+	.menu{display: none;}
+	.m-menu{display: block; width: 100%; position: fixed;top: -100%; left: 0; z-index:98;background: linear-gradient(to left , #5c5cf8, #312366); transition: 0.5s; }
+	.m-menu span{display: block;border-bottom: 1px rgba(255,255,255,.2) solid; width: 92%; margin: 0 auto; font-size: 18px;}
+	.m-menu span:last-child{border-bottom: 0;}
+	.m-menu span a{height: 60px; line-height: 60px;text-transform: uppercase;}
+	.m-menu.active{top: 80px;}
+	
+	.home{ margin-top: 170px;}
+	
+	.links a{padding: 0 20px; margin: 0 5px;}
+	
+}
+
+
+@media only screen and (max-width:1100px ) {
+
+    #nav a{padding: 0 12px;}
+}
+@media only screen and (max-width:1000px ) {
+    
+	
+	
+	.logo-box{width: 380px;height: 380px;}
+	.logo-plus{width: 240px; height:240px; margin-left: -120px;}
+	.home-left{width: calc(100% - 400px);}
+	.home-tx1 h1{font-size: 48px;}
+	.home-tx1 h2{font-size: 30px;}
+
+	
+	.home-a{ margin-top: 40px;}
+	.home-a .buy{width: 130px; height: 42px; border-radius:42px;line-height:42px; font-size: 16px;}
+	.home-a .buy img{ margin-left: 10px;}
+	.home-a .book{width: 100px; height: 42px; border-radius:42px;  font-size: 16px; line-height: 42px;}
+	.home-add{margin-top: 20px;}
+	.home-add input{width: 210px;}
+	
+	.about-left{width: 420px;}
+	.about-right{width: calc(100% - 460px);}
+	
+	.about-left span > div h1{font-size: 20px;}
+	.about-left span > div h2{font-size: 14px;}
+	
+	.row{padding: 80px 0 80px 0;}
+	
+	.sign-list{width:calc(50% - 8px);}
+	.sign-list span i{display: none;}
+	.sign-list:nth-child(3){margin-top: 50px;}
+	.sign-list:nth-child(4){margin-top: 50px;}
+	
+	.f-t-l{width: calc(100% - 300px);}
+	.f-t-l h1{font-size: 24px; }
+	.f-t-l h2{font-size: 24px; }
+	.ma{ width: 100%; }
+	.ma input{width: calc(100% - 100px);}
+	.ma button{width: 90px;}
+	
+	.shop-item em{width: calc(50% - 30px);}
+	.shop-item span{width: calc(50% - 30px);}
+	
+	.share a{width: 42px; height: 42px;}
+	
+	
+	
+	.home-tx1 h1{font-size: 46px;}
+	.home-tx1 span{font-size: 16px;}
+	
+	.links a{padding: 0 14px; margin: 0 5px;}
+	
+	
+}
+@media only screen and (max-width:900px ) {
+	
+	
+
+}
+@media only screen and (max-width:800px ) {
+    
+	.daibi-left{width: 100%;}
+	.d-left-bt{margin-top: 30px;}
+	.d-left-bt span em{width: 100px; height: 100px;}
+	.daibi-mid{width: 100%; margin-top: 30px;}
+	
+	.links{padding: 20px 0;}
+	.links a{width: 100%;  text-align: center; margin: 0 20px; margin-top: 10px;}
+	.links a:first-child{margin-top: 0;}
+	
+	.d-left-bt span em h1{font-size: 14px;}
+	
+}
+@media only screen and (max-width:750px ) {
+
+   
+
+	.home{ margin-top: 120px;}
+	.home-left{width: 100%; text-align: center;}
+	.home-tx1 h2{margin-top: 10px;}
+	.home-tx1 span{ margin-top: 30px;}
+	.home-a{justify-content: center;margin-top: 30px;}
+	
+
+	.home-add{justify-content: center;}
+	
+	.logo-box{width:500px;height: 500px; margin: 0 auto; margin-top: 30px;}
+	.logo-plus{width: 340px; height:340px; margin-left: -170px;}
+	
+	.yuan-1{ margin-left: -200px; }
+	.yuan-2{right: 60px; top: 100px;}
+	
+	.about{flex-direction: column-reverse;}
+	.about-left{width: 100%;margin-top: 50px;}
+	.about-right{width: 100%; }
+	.about-left span{width: calc(50% - 8px); margin-top: 16px; }
+	.title h2{font-size: 42px;}
+	.about-tx{font-size: 16px;}
+	.about-left span > div{padding: 15px;}
+	
+	.yuan-3{left: 220px; top: 80px;}
+	.yuan-4{ width: 340px; right:0px; bottom:0px; }
+	
+	.adv-left{width: 100%;}
+	.adv-right{width: 90%; margin: 0 auto; margin-top: 50px;}
+	
+	.yuan-5{ left: 50px; top: 500px; }
+	.yuan-6{ right: 40px; top: 80px; }
+	.daibi{margin-top: 50px;}
+	
+
+	.yuan-8{left: 300px; top: 100px; }
+	
+	.daibi-tx{margin-top: 30px; padding: 30px;}
+	
+	.daibi-tx span{width: 100%;}
+	.daibi-tx i{width: 100%;height: 3px; margin: 20px 0;}
+	
+	footer{padding-top: 80px;}
+	
+	.f-t-l{width: 100%;}
+	.f-buy{margin-top: 30px;}
+	.foot-bt{margin-top: 100px;}
+	.foot-info h1{width: 100%;}
+	.foot-info span{margin-top: 20px;}
+	.foot-info span a{margin-left: 0; margin-right: 10px;}
+	
+	.daibi-a{margin-top: 20px;}
+	
+	.shop-item em{width:80%; margin: 0 auto; margin-top: 30px;}
+	.shop-item span{width: 100%;}
+	
+	.shop-box{margin-top: 0px;}
+	.shop-item{margin-top: 50px;}
+	.shop-item span h1{font-size: 28px;}
+	.shop-item:nth-child(even) span h1{text-align: right;}
+	
+
+	.d-left-top span h1{font-size: 16px; }
+	
+	.f-t-l h3{font-size: 16px;}
+	
+	
+}	
+
+@media only screen and (max-width:600px ) {
+    .tools .buy{display: none;}
+	.logo{width: 120px;}
+	.head{height: 70px;}
+	.m-menu.active{top: 70px;}
+	
+	.logo-box{width:320px;height: 320px; margin: 0 auto; margin-top: 20px;}
+	.logo-plus{width: 200px; height:200px; margin-left: -100px;}
+	
+}
+@media only screen and (max-width:500px ) {
+
+}
+@media only screen and (max-width:420px ) {
+
+}
+@media only screen and (max-width:350px ) {
+	
+}
+       
